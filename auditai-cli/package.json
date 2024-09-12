@@ -1,0 +1,29 @@
+{
+  "name": "contract-auditai-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "contract-auditai": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "smart-contracts",
+    "openai",
+    "auditai",
+    "audit"
+  ],
+  "author": "Abhishek Bhattacharjee",
+  "license": "MIT",
+  "description": "A CLI tool to audit smart contracts using OpenAI",
+  "dependencies": {
+    "auditai-cli": "file:",
+    "commander": "^12.1.0",
+    "contract-auditai-cli": "file:",
+    "inquirer": "^8.2.6",
+    "openai": "^4.59.0"
+  }
+}
